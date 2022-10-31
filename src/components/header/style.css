@@ -1,0 +1,23 @@
+.container-fluid.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161D30;
+    height: 67px;
+}
+
+.container-fluid.header .logo {
+    display: flex;
+    justify-content: space-between;
+    width: 435px;
+    margin-right: 35px;
+}
+
+.container-fluid.header .text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: 44px;
+}

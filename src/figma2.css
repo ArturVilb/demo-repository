@@ -1,0 +1,339 @@
+
+
+
+.container-fluid.cardsinfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fluid .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -50px;
+    width: 1170px;
+    height: 177px;
+}
+
+.container-fluid .anothercard {
+    height: 177px;
+    width: 270px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 40px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+.container-fluid .anothercard:hover .blue-line{
+    background-color: #FFAA04;
+}
+
+.blue-line {
+    width: 65%;
+    height: 3px;
+    background-color: #189FF9;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.container-fluid .anothercard img {
+    height: 64px;
+    width: 64px;
+    margin-bottom: 27px;
+}
+
+.container-fluid.info {
+    height: 1500px;
+    margin-top: -130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 200px 0 0;
+    position: relative;
+}
+
+.container-fluid.info .div1 img {
+    margin-top: -85px;
+    margin-left: -62px;
+    position: absolute;
+    z-index: -1;
+}
+
+.container-fluid.info .information{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1274px;
+    height: 783px;
+}
+
+.container-fluid.info .div1 {
+    height: 600px;
+    background-color: #333333;
+    height: 638px;
+    width: 570px;
+    border-radius: 0 200px 0 0;
+    position: relative;
+}
+
+.container-fluid.info .div2 {
+    width: 329px;
+    height: 158px;
+    background-color: #FFAA04;
+    position: absolute;
+    margin-top: -98px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.container-fluid.info .div2 p {
+    margin-left: 53px;
+    margin-top: 38px;
+    margin-bottom: 38px;
+    margin-right: 29px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+}
+
+.container-fluid.info .div3 {
+    position: absolute;
+    width: 126px;
+    height: 158px;
+    background-color: #189FF9;
+    margin-left: 455px;
+    border-radius: 0px 104px 0px 0px;
+} 
+
+.container-fluid.info .text {
+    position: relative;
+}
+
+.container-fluid.info .text1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    color: #FFAA04;
+    height: 25px;
+    width: 75px;
+}
+
+.container-fluid.info .text2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    color: black;
+    height: 96px;
+    width: 459px;
+    margin-top: 14px;
+}
+
+.container-fluid.info .text3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+    height: 83px;
+    width: 459px;
+    margin-top: 49px;
+}
+
+.container-fluid.info .checkbox {
+    margin-top: 49px;
+}
+
+.container-fluid.info .checkbox1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    margin-top: 35px;
+}
+
+.container-fluid.info .button {
+    height: 55px;
+    width: 165px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 27.5px;
+    background-color: #FFAA04;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 58px;
+}
+
+.title-text {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 1274px;
+    margin-left: 375px;
+    margin-top: -200px;
+}
+
+.title-text img {
+    height: 25px;
+    width: 150px;
+}
+
+.title-text h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    color: #000000;
+    margin-top: 14px;
+}
+
+.owl-carousel .card {
+    margin-top: 69px;
+    margin-left: 31px;
+    margin-right: 31px;
+    height: 507px;
+    width: 439px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 0;
+}
+
+.card .card-head {
+    width: 438px;
+    height: 388px;
+    background-color: #333333;
+}
+
+.card .card-body h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+}
+
+.card .card-body p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+}
+
+.card .lines {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .orange-line {
+    width: 368px;
+    height: 4px;
+    background-color: #189FF9;
+    margin-bottom: 0;
+}
+
+.card .blue-line1 {
+    background-color: #189FF9;
+    width: 70px;
+    height: 4px;
+    align-items: right;
+}
+
+.card:hover .orange-line{
+    background-color: #FFAA04;
+}
+
+.problems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 141px;
+    margin-left: 375px;
+    height: 346px;
+    width: 1160px;
+}
+
+.problems .clients {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    color: #000000;
+    height: 127px;
+    width: 488px;
+}
+
+.problems .teritatis {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    height: 69px;
+    width: 513px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 97px;
+    width: 1150px;
+    margin-left: 385px;
+    margin-right: 385px;
+}
+
+.numbers .number {
+    width: 253px;
+    height: 97px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 122px;
+}
+
+.numbers p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    color: #189FF9;
+    text-align: center;
+}
+
+.numbers h6 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    color: #666666;
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+   .information  {flex-direction: column;}
+}

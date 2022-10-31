@@ -1,0 +1,34 @@
+.container-fluid.hero {
+    height: 109px;
+    background-color: #282424;
+    display: flex;
+    align-items: center;
+}
+
+.container-fluid.hero .logo {
+    width: 142px;
+    height: 46px;
+    margin-left: 56px;
+}
+
+.container-fluid.hero .text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    height: 27px;
+    width: 666px;
+    margin: auto;
+}
+
+.container-fluid.hero .search {
+    margin-right: 56px;
+}
+
+.container-fluid.hero a {
+    text-decoration: none; 
+    color: white;
+}
